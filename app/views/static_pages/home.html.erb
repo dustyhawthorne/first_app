@@ -1,18 +1,41 @@
 <% if user_signed_in? %>
 <div class="center hero-unit">
-    <h1>Big New Member Area Changed again</h1>
+    <h1>RingMaster Dashboard</h1>
 </div>
 <% else %>
 <div class="center hero-unit">
-    <h1>Welcome to One Month Rails</h1>
+	<div class="navbar">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="brand" href="#">
+            Start a Ring
+          </a>
+          <ul class="nav">
+            <li>
+              <a href="#">
+                Check Progress
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                About
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                New News
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <h1>Collaborative Gifting</h1>
 
-    <h2>
-      You've found the home page for the
-      <a href="http://omrails.com/">One Month Rails</a>
-      first application.
-    </h2>
+    <h2>Be careful what you Wish for.    <br>You Just might get it!</h2>
+<img src="assets/donutChart2.png" style=" width: 200px; height: 200px;">
 
-    <%= link_to "Sign up now!", new_user_registration_path, 
+    <%= link_to "Try It Now!", new_user_registration_path, 
                                 class: "btn btn-large btn-primary" %>
 </div>
 <% end %>
