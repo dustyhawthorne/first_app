@@ -7,7 +7,7 @@ html {
 }
 
 body {
-  padding-top: 0px;
+  padding-top: 40px;
   padding-bottom: 60px;
 }
 
@@ -27,8 +27,15 @@ textarea {
   margin-bottom: 10px;
 }
 
+.container-navbar-inner {
+  margin-right: 0;
+  margin-left: 0;
+  *zoom: 1;
+}
+
 .hero-unit {
   color: inherit;
+  padding-top: 20px;
   background-color: rgb(253, 253, 235);
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
@@ -39,10 +46,15 @@ textarea {
   font-size: 18px;
 }
 
+.navbar .nav > li > a {
+}
+
 .navbar-inner {
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
   border-radius: 0px;
+  padding-top: 2px;
+  padding-bottom: 2px;
 }
 
 /* typography */
@@ -56,15 +68,14 @@ h1 {
   letter-spacing: -2px;
   margin-bottom: 30px;
   text-align: left;
+  font-family: 'Cherry Swash';
 }
 
 h2 {
-  font-size: 1.7em;
-  letter-spacing: 0px;
-  margin-bottom: 30px;
   text-align: left;
   font-weight: normal;
   color: #999;
+  font-family: 'Capriola';
 }
 
 p {
@@ -78,6 +89,7 @@ p {
   float: left;
   margin-right: 10px;
   font-size: 1.7em;
+  font-family: 'Capriola';
   color: orange;
   letter-spacing: -1px;
   padding-top: 9px;
