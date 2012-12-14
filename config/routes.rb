@@ -4,6 +4,12 @@ Bigfun::Application.routes.draw do
 
   root :to => 'static_pages#home'
   get "about" => "static_pages#about"
+  get "help" => "static_pages#help"
+  get "contact" => "static_pages#contact"
+  get "setup" => "static_pages#setup"
+  get "edit" => "static_pages#edit"
+  get "blog" => "static_pages#blog"
+          
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
